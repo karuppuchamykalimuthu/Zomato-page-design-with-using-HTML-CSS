@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-portion{
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Background Property*/
+    /* background-color: rgb(238, 13, 223); */
+    background-image: linear-gradient(transparent,rgba(34, 30, 30, 0.894)),url(../images/shutterstock_348320018.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* display: none; */
+    /* background: linear-gradient(red,green,blue); */
+}
+
+/*
+Conditions
+----------
+If Flex direction work as row 
+Align Items works Vertically(Top to Bottom)
+Justify Content works Horizontally (Left to Right)
+
+If Flex direction work as column 
+Align Items works Horizontally (Left to Right)
+Justify Content works Vertically(Top to Bottom)
+*/
+.main-portion-header{
+    border: 1px solid black;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.btn{
+    margin: 0px 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+}
+.btn-signup-border{
+    border: 0px solid white;
+    border-radius: 4px;
+}
+.brand{
+    margin-top: 20px;
+    background-color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.brand-symbol{
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+}
+.sub-title{
+    font-size: 30px;
+    margin: 20px 0;
+    color: white;
+}
+.search{
+    border: 1px solid white;
+    width: 40%;
+}
+.search-location{
+    width: 35%;
+    padding: 10px;
+}
+.search-restarant{
+    width: 64%;
+    padding: 10px;
+}
+
+/*Meal type Section */
+.meal-type-main-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+.meal-type-sub-section{
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+.meal-type-main-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #192F60;
+}
+.meal-type-sub-title{
+margin: 10px 0;
+font-size: 18px;
+color: #8C96AB;
+}
+.meal-type-item{
+    border: 1px solid black;
+    width: 30%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.meal-type-item-img-div{
+    width: 50%;
+    height: 150px;
+
+}
+.meal-type-item-img{
+    width: 100%;
+    height: 100%;
+}
+.meal-type-item-p-div{
+    width: 50%;
+    padding: 8px;
+}
+.meal-type-item-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #192F60;
+}
+.meal-type-item-sub-title{
+    color: #8C96AB;
+}
+.meal-type-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
